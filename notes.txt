@@ -1,0 +1,16 @@
+Running Selenium Automatically
+If the server is on the same machine where Nightwatch is running, it can be 
+started/stopped directly by the Nightwatch Test Runner.
+
+
+Running Selenium Manually
+To run the Selenium Server manually, from the directory with the jar run the 
+following:
+
+java -jar selenium-server-standalone-{VERSION}.jar
+
+
+Using Selenium Standalone Server
+For viewing all the run-time options, run the previous command adding the -help:
+
+java -jar selenium-server-standalone-{VERSION}.jar -help
