@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="0">
 
   <testsuite name="expect"
-    errors="0" failures="1" hostname="" id="" package="expect" skipped="0"
-    tests="1" time="9.069" timestamp="">
-  
-    <testcase name="Demo test Google" classname="expect" time="9.069" assertions="2">
-
-      <failure message="Expected element &lt;#lst-ib&gt; to have css property &#34;display&#34; - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at Object.Demo test Google (/Users/kathrynduane/Development/extraCurricular/NightWatch.js/tests/expect.js:11:24)
-    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
-
-    <failure message="    at Object.Demo test Google (/Users/kathrynduane/Development/extraCurricular/NightWatch.js/tests/expect.js:11:24)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
-    </testcase>
+    errors="0" failures="0" hostname="" id="" package="expect" skipped="0"
+    tests="0" time="0.000" timestamp="">
   
 
   

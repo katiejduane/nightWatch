@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="0">
 
   <testsuite name="hooks"
     errors="0" failures="0" hostname="" id="" package="hooks" skipped="0"
-    tests="2" time="0.1080" timestamp="">
-  
-    <testcase name="step one" classname="hooks" time="0.001000" assertions="0">
-    </testcase>
-  
-    <testcase name="step two" classname="hooks" time="0.1070" assertions="0">
-    </testcase>
+    tests="0" time="0.000" timestamp="">
   
 
   
