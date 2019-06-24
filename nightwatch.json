@@ -11,9 +11,9 @@
         "selenium": {
             "start_process": true,
             "host": "localhost",
-            "server_path": "./bin/selenium-server-standalone-3.10.0.jar",
+            "server_path": "./bin/selenium-server-standalone-4.0.0-alpha-1.jar",
             "cli_args": {
-                "webdriver.chrome.driver": "./bin/chromedriver-2.32"
+                "webdriver.chrome.driver": "./bin/chromedriver"
             }
         }
     },
