@@ -1,0 +1,26 @@
+{
+  "name": "night-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "e2e-setup": "selenium-standalone install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katiejduane/nightWatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katiejduane/nightWatch/issues"
+  },
+  "homepage": "https://github.com/katiejduane/nightWatch#readme",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "selenium-standalone": "^6.16.0"
+  }
+}
