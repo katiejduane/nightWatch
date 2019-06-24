@@ -5,9 +5,13 @@
 
   <testsuite name="katiesFirstAttempt"
     errors="0" failures="0" hostname="" id="" package="katiesFirstAttempt" skipped="0"
-    tests="1" time="5.954" timestamp="">
+    tests="1" time="3.222" timestamp="">
   
-    <testcase name="Visits and logs into emOceans" classname="katiesFirstAttempt" time="5.954" assertions="2">
+    <testcase name="Visits and logs into emOceans" classname="katiesFirstAttempt" time="3.222" assertions="4">
+
+    
+
+    
 
     
 

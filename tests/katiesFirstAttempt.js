@@ -19,7 +19,13 @@ module.exports = {
             .waitForElementVisible('.form-login')
             .setValue('#email', 'katiejduane@gmail.com')
             .setValue('#password', 'x')
-            .click(".targBoxlogin")
+            .click('.targBoxlogin')
+            .waitForElementVisible('.swatchContainer')
+            .click('.swatch')
+            .click('#lighten')
+            .click('#desat')
+            .click('#save')
+            .waitForElementVisible('.submitContainer')
         client.end();
     }
 }
