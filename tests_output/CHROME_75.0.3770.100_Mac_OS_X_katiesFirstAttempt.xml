@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
-            tests="1">
+            tests="6">
 
   <testsuite name="katiesFirstAttempt"
-    errors="0" failures="0" hostname="" id="" package="katiesFirstAttempt" skipped="0"
-    tests="1" time="3.222" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="katiesFirstAttempt" skipped="0"
+    tests="6" time="17.39" timestamp="">
   
-    <testcase name="Visits and logs into emOceans" classname="katiesFirstAttempt" time="3.222" assertions="4">
+    <testcase name="Step 1: visits and logs into emOceans" classname="katiesFirstAttempt" time="2.589" assertions="2">
 
     
 
     
+    </testcase>
+  
+    <testcase name="Step 2: clicks on and adjusts a color and advances to form page" classname="katiesFirstAttempt" time="4.220" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step 2b: loads form page and enters word in search bar" classname="katiesFirstAttempt" time="1.129" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Step 3: submits and waits for API response" classname="katiesFirstAttempt" time="0.07700" assertions="0">
+    </testcase>
+  
+    <testcase name="Step 4: enters mood data in form and sends to DB" classname="katiesFirstAttempt" time="3.668" assertions="0">
+    </testcase>
+  
+    <testcase name="Step 5: views mood data" classname="katiesFirstAttempt" time="5.712" assertions="2">
 
     
 
