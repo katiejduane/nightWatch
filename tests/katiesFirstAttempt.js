@@ -26,6 +26,7 @@ module.exports = {
             .click('.targBoxlogin')
             .waitForElementVisible('.swatchContainer')
             .click('.swatch')
+            .pause(1000)
             .click('#lighten')
             .pause(1000)
             .click('#desat')
@@ -47,11 +48,14 @@ module.exports = {
     },
     'Step 3: submits and waits for API response': async function(client){
         await client.click('.datamuse-button')
+        // i'm pretty sure this isn't the right way to use async await, as
+        // i'm waiting for the RESPONSE of that click, not the click itself. 
+        // explore further
         client.waitForElementVisible('.results', 6000, false)
     },
     'Step 4: enters mood data in form and sends to DB': function(client){
         client  
-            .setValue('#mood', 'Joyful')
+            .setValue('#mood', 'Glorious')
             .setValue('#note', 'This is rather fun')
             .pause(3000)
             .click('#submitButton')

@@ -5,36 +5,36 @@
 
   <testsuite name="katiesFirstAttempt"
     errors="0" failures="0" hostname="" id="" package="katiesFirstAttempt" skipped="0"
-    tests="7" time="26.39" timestamp="">
+    tests="7" time="26.11" timestamp="">
   
-    <testcase name="Step 1: visits and logs into emOceans" classname="katiesFirstAttempt" time="2.685" assertions="2">
+    <testcase name="Step 1: visits and logs into emOceans" classname="katiesFirstAttempt" time="2.468" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 2: clicks on and adjusts a color and advances to form page" classname="katiesFirstAttempt" time="7.500" assertions="2">
+    <testcase name="Step 2: clicks on and adjusts a color and advances to form page" classname="katiesFirstAttempt" time="7.416" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Step 2b: loads form page and enters word in search bar" classname="katiesFirstAttempt" time="1.140" assertions="1">
+    <testcase name="Step 2b: loads form page and enters word in search bar" classname="katiesFirstAttempt" time="1.127" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 3: submits and waits for API response" classname="katiesFirstAttempt" time="0.6240" assertions="1">
+    <testcase name="Step 3: submits and waits for API response" classname="katiesFirstAttempt" time="0.6440" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Step 4: enters mood data in form and sends to DB" classname="katiesFirstAttempt" time="3.641" assertions="0">
+    <testcase name="Step 4: enters mood data in form and sends to DB" classname="katiesFirstAttempt" time="3.685" assertions="0">
     </testcase>
   
-    <testcase name="Step 5: views mood data" classname="katiesFirstAttempt" time="6.997" assertions="3">
+    <testcase name="Step 5: views mood data" classname="katiesFirstAttempt" time="6.982" assertions="3">
 
     
 
@@ -43,7 +43,7 @@
     
     </testcase>
   
-    <testcase name="Step 6: views about info and then logs out" classname="katiesFirstAttempt" time="3.800" assertions="1">
+    <testcase name="Step 6: views about info and then logs out" classname="katiesFirstAttempt" time="3.790" assertions="1">
 
     
     </testcase>
